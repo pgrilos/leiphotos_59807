@@ -1,0 +1,670 @@
+
+----------------------------------------------- 
+    Load photos and add them to main library    
+-----------------------------------------------
+
+leiphotos.domain.metadatareader.JpegMetadataException: Arquivo não encontrado
+	at leiphotos.domain.metadatareader.JavaXTMetadataReaderAdapter.<init>(JavaXTMetadataReaderAdapter.java:24)
+	at leiphotos.domain.core.PhotoFactory.createPhoto(PhotoFactory.java:28)
+	at leiphotos.domain.controllers.LibrariesController.importPhoto(LibrariesController.java:37)
+	at leiphotos.client.LoaderPhotos.load(LoaderPhotos.java:54)
+	at leiphotos.client.SimpleClient.loadSomePhotos(SimpleClient.java:97)
+	at leiphotos.client.SimpleClient.main(SimpleClient.java:41)
+photos\AnelJVasconcelos.jpeg
+photos\ArchesNationalPark.JPG
+photos\Bean.jpeg
+photos\Book.jpeg
+photos\Cars.jpg
+photos\Ginkaku-ji.JPG
+photos\Iguana.JPG
+photos\Library.jpeg
+photos\Office.jpg
+photos\Papoilas.jpeg
+photos\Polvo.jpeg
+photos\SapatoJVasconcelos.JPG
+
+***** MAIN PHOTO LIBRARY: 12 photos *****
+File:photos\AnelJVasconcelos.jpeg
+Title:Anel Added:2024-04-19 22:26 Size:3255346
+[{Lat:38,7 Long:-9,19 Desc:}, 1970-01-01 00:00, iPhone SE (3rd generation), Apple]
+File:photos\ArchesNationalPark.JPG
+Title:Best arch Added:2024-04-19 22:26 Size:1372703
+[No Location, 2009-08-10 16:24Canon PowerShot G5, Canon]
+File:photos\Bean.jpeg
+Title:Cloud Gate Added:2024-04-19 22:26 Size:1459682
+[{Lat:41,88 Long:-87,62 Desc:}, 2023-07-31 13:49, DSC-HX1, SONY]
+File:photos\Book.jpeg
+Title:IAS Book borrow by Oppenheimer Added:2024-04-19 22:26 Size:1643722
+[{Lat:40,33 Long:-74,67 Desc:}, 2022-04-13 13:36, iPhone 7, Apple]
+File:photos\Cars.jpg
+Title:Cars Oppenheimer movie Added:2024-04-19 22:26 Size:6633939
+[No Location, 1970-01-01 00:00, ]
+File:photos\Ginkaku-ji.JPG
+Title:Ginkaku-ji Added:2024-04-19 22:26 Size:3832046
+[{Lat:35,04 Long:135,73 Desc:}, 2015-08-12 01:44, DSC-HX1, SONY]
+File:photos\Iguana.JPG
+Title:Rica Iguana Added:2024-04-19 22:26 Size:4081842
+[{Lat:9,4 Long:-84,17 Desc:}, 2011-08-11 14:39, DSC-HX1, SONY]
+File:photos\Library.jpeg
+Title:IAS Library Rules Added:2024-04-19 22:26 Size:2214613
+[{Lat:40,33 Long:-74,67 Desc:}, 2022-04-13 13:32, iPhone 7, Apple]
+File:photos\Office.jpg
+Title:IAS Eistein office Added:2024-04-19 22:26 Size:1536702
+[{Lat:40,33 Long:-74,67 Desc:}, 2022-04-13 13:20, POT-LX1A, HUAWEI]
+File:photos\Papoilas.jpeg
+Title:Papoilas Added:2024-04-19 22:26 Size:4476076
+[{Lat:39,36 Long:-8,69 Desc:}, 2022-05-01 11:05, iPhone 7, Apple]
+File:photos\Polvo.jpeg
+Title:Octopus Vasconcelos Added:2024-04-19 22:26 Size:3283344
+[{Lat:38,7 Long:-9,19 Desc:}, 2024-02-12 10:13, iPhone SE (3rd generation), Apple]
+File:photos\SapatoJVasconcelos.JPG
+Title:Salto Alto Added:2024-04-19 22:26 Size:735913
+[{Lat:38,7 Long:-9,21 Desc:}, 2010-03-21 12:51, iPhone 3G, Apple]
+***** TRASH PHOTO LIBRARY: 0 photos *****
+
+***** VIEWS *****
+***** VIEW ALL_MAIN: 12 photos *****
+photos\SapatoJVasconcelos.JPG
+photos\ArchesNationalPark.JPG
+photos\Bean.jpeg
+photos\Office.jpg
+photos\Book.jpeg
+photos\Library.jpeg
+photos\AnelJVasconcelos.jpeg
+photos\Polvo.jpeg
+photos\Ginkaku-ji.JPG
+photos\Iguana.JPG
+photos\Papoilas.jpeg
+photos\Cars.jpg
+***** VIEW ALL_TRASH: 0 photos *****
+***** VIEW FAVOURITES_MAIN: 0 photos *****
+***** VIEW MOST_RECENT: 2 photos *****
+photos\Bean.jpeg
+photos\Polvo.jpeg
+
+
+----------------------------------------------- 
+    Marking 
+photos\AnelJVasconcelos.jpeg
+photos\ArchesNationalPark.JPG
+photos\Bean.jpeg
+ as favourites          
+-----------------------------------------------
+
+***** MAIN PHOTO LIBRARY: 12 photos *****
+File:photos\AnelJVasconcelos.jpeg
+Title:Anel Added:2024-04-19 22:26 Size:3255346
+[{Lat:38,7 Long:-9,19 Desc:}, 1970-01-01 00:00, iPhone SE (3rd generation), Apple] FAV
+File:photos\ArchesNationalPark.JPG
+Title:Best arch Added:2024-04-19 22:26 Size:1372703
+[No Location, 2009-08-10 16:24Canon PowerShot G5, Canon] FAV
+File:photos\Bean.jpeg
+Title:Cloud Gate Added:2024-04-19 22:26 Size:1459682
+[{Lat:41,88 Long:-87,62 Desc:}, 2023-07-31 13:49, DSC-HX1, SONY] FAV
+File:photos\Book.jpeg
+Title:IAS Book borrow by Oppenheimer Added:2024-04-19 22:26 Size:1643722
+[{Lat:40,33 Long:-74,67 Desc:}, 2022-04-13 13:36, iPhone 7, Apple]
+File:photos\Cars.jpg
+Title:Cars Oppenheimer movie Added:2024-04-19 22:26 Size:6633939
+[No Location, 1970-01-01 00:00, ]
+File:photos\Ginkaku-ji.JPG
+Title:Ginkaku-ji Added:2024-04-19 22:26 Size:3832046
+[{Lat:35,04 Long:135,73 Desc:}, 2015-08-12 01:44, DSC-HX1, SONY]
+File:photos\Iguana.JPG
+Title:Rica Iguana Added:2024-04-19 22:26 Size:4081842
+[{Lat:9,4 Long:-84,17 Desc:}, 2011-08-11 14:39, DSC-HX1, SONY]
+File:photos\Library.jpeg
+Title:IAS Library Rules Added:2024-04-19 22:26 Size:2214613
+[{Lat:40,33 Long:-74,67 Desc:}, 2022-04-13 13:32, iPhone 7, Apple]
+File:photos\Office.jpg
+Title:IAS Eistein office Added:2024-04-19 22:26 Size:1536702
+[{Lat:40,33 Long:-74,67 Desc:}, 2022-04-13 13:20, POT-LX1A, HUAWEI]
+File:photos\Papoilas.jpeg
+Title:Papoilas Added:2024-04-19 22:26 Size:4476076
+[{Lat:39,36 Long:-8,69 Desc:}, 2022-05-01 11:05, iPhone 7, Apple]
+File:photos\Polvo.jpeg
+Title:Octopus Vasconcelos Added:2024-04-19 22:26 Size:3283344
+[{Lat:38,7 Long:-9,19 Desc:}, 2024-02-12 10:13, iPhone SE (3rd generation), Apple]
+File:photos\SapatoJVasconcelos.JPG
+Title:Salto Alto Added:2024-04-19 22:26 Size:735913
+[{Lat:38,7 Long:-9,21 Desc:}, 2010-03-21 12:51, iPhone 3G, Apple]
+***** TRASH PHOTO LIBRARY: 0 photos *****
+
+***** VIEWS *****
+***** VIEW ALL_MAIN: 12 photos *****
+photos\SapatoJVasconcelos.JPG
+photos\ArchesNationalPark.JPG
+photos\Bean.jpeg
+photos\Office.jpg
+photos\Book.jpeg
+photos\Library.jpeg
+photos\AnelJVasconcelos.jpeg
+photos\Polvo.jpeg
+photos\Ginkaku-ji.JPG
+photos\Iguana.JPG
+photos\Papoilas.jpeg
+photos\Cars.jpg
+***** VIEW ALL_TRASH: 0 photos *****
+***** VIEW FAVOURITES_MAIN: 3 photos *****
+photos\ArchesNationalPark.JPG
+photos\Bean.jpeg
+photos\AnelJVasconcelos.jpeg
+***** VIEW MOST_RECENT: 2 photos *****
+photos\Bean.jpeg
+photos\Polvo.jpeg
+
+
+----------------------------------------------- 
+    Delete 
+photos\AnelJVasconcelos.jpeg
+photos\Iguana.JPG
+-----------------------------------------------
+
+***** MAIN PHOTO LIBRARY: 10 photos *****
+File:photos\ArchesNationalPark.JPG
+Title:Best arch Added:2024-04-19 22:26 Size:1372703
+[No Location, 2009-08-10 16:24Canon PowerShot G5, Canon] FAV
+File:photos\Bean.jpeg
+Title:Cloud Gate Added:2024-04-19 22:26 Size:1459682
+[{Lat:41,88 Long:-87,62 Desc:}, 2023-07-31 13:49, DSC-HX1, SONY] FAV
+File:photos\Book.jpeg
+Title:IAS Book borrow by Oppenheimer Added:2024-04-19 22:26 Size:1643722
+[{Lat:40,33 Long:-74,67 Desc:}, 2022-04-13 13:36, iPhone 7, Apple]
+File:photos\Cars.jpg
+Title:Cars Oppenheimer movie Added:2024-04-19 22:26 Size:6633939
+[No Location, 1970-01-01 00:00, ]
+File:photos\Ginkaku-ji.JPG
+Title:Ginkaku-ji Added:2024-04-19 22:26 Size:3832046
+[{Lat:35,04 Long:135,73 Desc:}, 2015-08-12 01:44, DSC-HX1, SONY]
+File:photos\Library.jpeg
+Title:IAS Library Rules Added:2024-04-19 22:26 Size:2214613
+[{Lat:40,33 Long:-74,67 Desc:}, 2022-04-13 13:32, iPhone 7, Apple]
+File:photos\Office.jpg
+Title:IAS Eistein office Added:2024-04-19 22:26 Size:1536702
+[{Lat:40,33 Long:-74,67 Desc:}, 2022-04-13 13:20, POT-LX1A, HUAWEI]
+File:photos\Papoilas.jpeg
+Title:Papoilas Added:2024-04-19 22:26 Size:4476076
+[{Lat:39,36 Long:-8,69 Desc:}, 2022-05-01 11:05, iPhone 7, Apple]
+File:photos\Polvo.jpeg
+Title:Octopus Vasconcelos Added:2024-04-19 22:26 Size:3283344
+[{Lat:38,7 Long:-9,19 Desc:}, 2024-02-12 10:13, iPhone SE (3rd generation), Apple]
+File:photos\SapatoJVasconcelos.JPG
+Title:Salto Alto Added:2024-04-19 22:26 Size:735913
+[{Lat:38,7 Long:-9,21 Desc:}, 2010-03-21 12:51, iPhone 3G, Apple]
+***** TRASH PHOTO LIBRARY: 2 photos *****
+File:photos\Iguana.JPG
+Title:Rica Iguana Added:2024-04-19 22:26 Size:4081842
+[{Lat:9,4 Long:-84,17 Desc:}, 2011-08-11 14:39, DSC-HX1, SONY]
+File:photos\AnelJVasconcelos.jpeg
+Title:Anel Added:2024-04-19 22:26 Size:3255346
+[{Lat:38,7 Long:-9,19 Desc:}, 1970-01-01 00:00, iPhone SE (3rd generation), Apple] FAV
+
+***** VIEWS *****
+***** VIEW ALL_MAIN: 10 photos *****
+photos\SapatoJVasconcelos.JPG
+photos\ArchesNationalPark.JPG
+photos\Bean.jpeg
+photos\Office.jpg
+photos\Book.jpeg
+photos\Library.jpeg
+photos\Polvo.jpeg
+photos\Ginkaku-ji.JPG
+photos\Papoilas.jpeg
+photos\Cars.jpg
+***** VIEW ALL_TRASH: 2 photos *****
+photos\AnelJVasconcelos.jpeg
+photos\Iguana.JPG
+***** VIEW FAVOURITES_MAIN: 2 photos *****
+photos\ArchesNationalPark.JPG
+photos\Bean.jpeg
+***** VIEW MOST_RECENT: 2 photos *****
+photos\Bean.jpeg
+photos\Polvo.jpeg
+
+
+----------------------------------------------- 
+    Empty Trash                                
+-----------------------------------------------
+
+***** MAIN PHOTO LIBRARY: 10 photos *****
+File:photos\ArchesNationalPark.JPG
+Title:Best arch Added:2024-04-19 22:26 Size:1372703
+[No Location, 2009-08-10 16:24Canon PowerShot G5, Canon] FAV
+File:photos\Bean.jpeg
+Title:Cloud Gate Added:2024-04-19 22:26 Size:1459682
+[{Lat:41,88 Long:-87,62 Desc:}, 2023-07-31 13:49, DSC-HX1, SONY] FAV
+File:photos\Book.jpeg
+Title:IAS Book borrow by Oppenheimer Added:2024-04-19 22:26 Size:1643722
+[{Lat:40,33 Long:-74,67 Desc:}, 2022-04-13 13:36, iPhone 7, Apple]
+File:photos\Cars.jpg
+Title:Cars Oppenheimer movie Added:2024-04-19 22:26 Size:6633939
+[No Location, 1970-01-01 00:00, ]
+File:photos\Ginkaku-ji.JPG
+Title:Ginkaku-ji Added:2024-04-19 22:26 Size:3832046
+[{Lat:35,04 Long:135,73 Desc:}, 2015-08-12 01:44, DSC-HX1, SONY]
+File:photos\Library.jpeg
+Title:IAS Library Rules Added:2024-04-19 22:26 Size:2214613
+[{Lat:40,33 Long:-74,67 Desc:}, 2022-04-13 13:32, iPhone 7, Apple]
+File:photos\Office.jpg
+Title:IAS Eistein office Added:2024-04-19 22:26 Size:1536702
+[{Lat:40,33 Long:-74,67 Desc:}, 2022-04-13 13:20, POT-LX1A, HUAWEI]
+File:photos\Papoilas.jpeg
+Title:Papoilas Added:2024-04-19 22:26 Size:4476076
+[{Lat:39,36 Long:-8,69 Desc:}, 2022-05-01 11:05, iPhone 7, Apple]
+File:photos\Polvo.jpeg
+Title:Octopus Vasconcelos Added:2024-04-19 22:26 Size:3283344
+[{Lat:38,7 Long:-9,19 Desc:}, 2024-02-12 10:13, iPhone SE (3rd generation), Apple]
+File:photos\SapatoJVasconcelos.JPG
+Title:Salto Alto Added:2024-04-19 22:26 Size:735913
+[{Lat:38,7 Long:-9,21 Desc:}, 2010-03-21 12:51, iPhone 3G, Apple]
+***** TRASH PHOTO LIBRARY: 0 photos *****
+
+***** VIEWS *****
+***** VIEW ALL_MAIN: 10 photos *****
+photos\SapatoJVasconcelos.JPG
+photos\ArchesNationalPark.JPG
+photos\Bean.jpeg
+photos\Office.jpg
+photos\Book.jpeg
+photos\Library.jpeg
+photos\Polvo.jpeg
+photos\Ginkaku-ji.JPG
+photos\Papoilas.jpeg
+photos\Cars.jpg
+***** VIEW ALL_TRASH: 0 photos *****
+***** VIEW FAVOURITES_MAIN: 2 photos *****
+photos\ArchesNationalPark.JPG
+photos\Bean.jpeg
+***** VIEW MOST_RECENT: 2 photos *****
+photos\Bean.jpeg
+photos\Polvo.jpeg
+
+
+----------------------------------------------- 
+    Change sorting criteria of ALL_MAIN: use title
+-----------------------------------------------
+
+***** MAIN PHOTO LIBRARY: 10 photos *****
+File:photos\ArchesNationalPark.JPG
+Title:Best arch Added:2024-04-19 22:26 Size:1372703
+[No Location, 2009-08-10 16:24Canon PowerShot G5, Canon] FAV
+File:photos\Bean.jpeg
+Title:Cloud Gate Added:2024-04-19 22:26 Size:1459682
+[{Lat:41,88 Long:-87,62 Desc:}, 2023-07-31 13:49, DSC-HX1, SONY] FAV
+File:photos\Book.jpeg
+Title:IAS Book borrow by Oppenheimer Added:2024-04-19 22:26 Size:1643722
+[{Lat:40,33 Long:-74,67 Desc:}, 2022-04-13 13:36, iPhone 7, Apple]
+File:photos\Cars.jpg
+Title:Cars Oppenheimer movie Added:2024-04-19 22:26 Size:6633939
+[No Location, 1970-01-01 00:00, ]
+File:photos\Ginkaku-ji.JPG
+Title:Ginkaku-ji Added:2024-04-19 22:26 Size:3832046
+[{Lat:35,04 Long:135,73 Desc:}, 2015-08-12 01:44, DSC-HX1, SONY]
+File:photos\Library.jpeg
+Title:IAS Library Rules Added:2024-04-19 22:26 Size:2214613
+[{Lat:40,33 Long:-74,67 Desc:}, 2022-04-13 13:32, iPhone 7, Apple]
+File:photos\Office.jpg
+Title:IAS Eistein office Added:2024-04-19 22:26 Size:1536702
+[{Lat:40,33 Long:-74,67 Desc:}, 2022-04-13 13:20, POT-LX1A, HUAWEI]
+File:photos\Papoilas.jpeg
+Title:Papoilas Added:2024-04-19 22:26 Size:4476076
+[{Lat:39,36 Long:-8,69 Desc:}, 2022-05-01 11:05, iPhone 7, Apple]
+File:photos\Polvo.jpeg
+Title:Octopus Vasconcelos Added:2024-04-19 22:26 Size:3283344
+[{Lat:38,7 Long:-9,19 Desc:}, 2024-02-12 10:13, iPhone SE (3rd generation), Apple]
+File:photos\SapatoJVasconcelos.JPG
+Title:Salto Alto Added:2024-04-19 22:26 Size:735913
+[{Lat:38,7 Long:-9,21 Desc:}, 2010-03-21 12:51, iPhone 3G, Apple]
+***** TRASH PHOTO LIBRARY: 0 photos *****
+
+***** VIEWS *****
+***** VIEW ALL_MAIN: 10 photos *****
+photos\ArchesNationalPark.JPG
+photos\Cars.jpg
+photos\Bean.jpeg
+photos\Ginkaku-ji.JPG
+photos\Book.jpeg
+photos\Office.jpg
+photos\Library.jpeg
+photos\Polvo.jpeg
+photos\Papoilas.jpeg
+photos\SapatoJVasconcelos.JPG
+***** VIEW ALL_TRASH: 0 photos *****
+***** VIEW FAVOURITES_MAIN: 2 photos *****
+photos\ArchesNationalPark.JPG
+photos\Bean.jpeg
+***** VIEW MOST_RECENT: 2 photos *****
+photos\Bean.jpeg
+photos\Polvo.jpeg
+
+
+----------------------------------------------- 
+    Marking 
+photos\ArchesNationalPark.JPG
+photos\Papoilas.jpeg
+photos\Polvo.jpeg
+ as favourites          
+-----------------------------------------------
+
+***** MAIN PHOTO LIBRARY: 10 photos *****
+File:photos\ArchesNationalPark.JPG
+Title:Best arch Added:2024-04-19 22:26 Size:1372703
+[No Location, 2009-08-10 16:24Canon PowerShot G5, Canon]
+File:photos\Bean.jpeg
+Title:Cloud Gate Added:2024-04-19 22:26 Size:1459682
+[{Lat:41,88 Long:-87,62 Desc:}, 2023-07-31 13:49, DSC-HX1, SONY] FAV
+File:photos\Book.jpeg
+Title:IAS Book borrow by Oppenheimer Added:2024-04-19 22:26 Size:1643722
+[{Lat:40,33 Long:-74,67 Desc:}, 2022-04-13 13:36, iPhone 7, Apple]
+File:photos\Cars.jpg
+Title:Cars Oppenheimer movie Added:2024-04-19 22:26 Size:6633939
+[No Location, 1970-01-01 00:00, ]
+File:photos\Ginkaku-ji.JPG
+Title:Ginkaku-ji Added:2024-04-19 22:26 Size:3832046
+[{Lat:35,04 Long:135,73 Desc:}, 2015-08-12 01:44, DSC-HX1, SONY]
+File:photos\Library.jpeg
+Title:IAS Library Rules Added:2024-04-19 22:26 Size:2214613
+[{Lat:40,33 Long:-74,67 Desc:}, 2022-04-13 13:32, iPhone 7, Apple]
+File:photos\Office.jpg
+Title:IAS Eistein office Added:2024-04-19 22:26 Size:1536702
+[{Lat:40,33 Long:-74,67 Desc:}, 2022-04-13 13:20, POT-LX1A, HUAWEI]
+File:photos\Papoilas.jpeg
+Title:Papoilas Added:2024-04-19 22:26 Size:4476076
+[{Lat:39,36 Long:-8,69 Desc:}, 2022-05-01 11:05, iPhone 7, Apple] FAV
+File:photos\Polvo.jpeg
+Title:Octopus Vasconcelos Added:2024-04-19 22:26 Size:3283344
+[{Lat:38,7 Long:-9,19 Desc:}, 2024-02-12 10:13, iPhone SE (3rd generation), Apple] FAV
+File:photos\SapatoJVasconcelos.JPG
+Title:Salto Alto Added:2024-04-19 22:26 Size:735913
+[{Lat:38,7 Long:-9,21 Desc:}, 2010-03-21 12:51, iPhone 3G, Apple]
+***** TRASH PHOTO LIBRARY: 0 photos *****
+
+***** VIEWS *****
+***** VIEW ALL_MAIN: 10 photos *****
+photos\ArchesNationalPark.JPG
+photos\Cars.jpg
+photos\Bean.jpeg
+photos\Ginkaku-ji.JPG
+photos\Book.jpeg
+photos\Office.jpg
+photos\Library.jpeg
+photos\Polvo.jpeg
+photos\Papoilas.jpeg
+photos\SapatoJVasconcelos.JPG
+***** VIEW ALL_TRASH: 0 photos *****
+***** VIEW FAVOURITES_MAIN: 3 photos *****
+photos\Bean.jpeg
+photos\Polvo.jpeg
+photos\Papoilas.jpeg
+***** VIEW MOST_RECENT: 2 photos *****
+photos\Bean.jpeg
+photos\Polvo.jpeg
+
+
+----------------------------------------------- 
+    Search photos in ALL_MAIN matching .*Vasconcelos.*
+-----------------------------------------------
+
+photos\Polvo.jpeg
+photos\SapatoJVasconcelos.JPG
+
+
+----------------------------------------------- 
+    Create [Oppenheimer, Monuments, JoanaVasconcelos, Monuments]                   
+-----------------------------------------------
+
+***** VIEWS *****
+***** VIEW ALL_MAIN: 10 photos *****
+photos\ArchesNationalPark.JPG
+photos\Cars.jpg
+photos\Bean.jpeg
+photos\Ginkaku-ji.JPG
+photos\Book.jpeg
+photos\Office.jpg
+photos\Library.jpeg
+photos\Polvo.jpeg
+photos\Papoilas.jpeg
+photos\SapatoJVasconcelos.JPG
+***** VIEW ALL_TRASH: 0 photos *****
+***** VIEW FAVOURITES_MAIN: 3 photos *****
+photos\Bean.jpeg
+photos\Polvo.jpeg
+photos\Papoilas.jpeg
+***** VIEW MOST_RECENT: 2 photos *****
+photos\Bean.jpeg
+photos\Polvo.jpeg
+
+***** ALBUMS *****
+***** Album Oppenheimer: 0 photos *****
+***** Album Monuments: 0 photos *****
+***** Album JoanaVasconcelos: 0 photos *****
+
+
+----------------------------------------------- 
+    Add 
+photos\Book.jpeg
+photos\Cars.jpg
+photos\Library.jpeg
+photos\Office.jpg
+ to Album Oppenheimer
+-----------------------------------------------
+
+
+----------------------------------------------- 
+    Add 
+photos\Bean.jpeg
+ to Album Monuments
+-----------------------------------------------
+
+
+----------------------------------------------- 
+    Add 
+photos\Polvo.jpeg
+photos\SapatoJVasconcelos.JPG
+ to Album JoanaVasconcelos
+-----------------------------------------------
+
+***** VIEWS *****
+***** VIEW ALL_MAIN: 10 photos *****
+photos\ArchesNationalPark.JPG
+photos\Cars.jpg
+photos\Bean.jpeg
+photos\Ginkaku-ji.JPG
+photos\Book.jpeg
+photos\Office.jpg
+photos\Library.jpeg
+photos\Polvo.jpeg
+photos\Papoilas.jpeg
+photos\SapatoJVasconcelos.JPG
+***** VIEW ALL_TRASH: 0 photos *****
+***** VIEW FAVOURITES_MAIN: 3 photos *****
+photos\Bean.jpeg
+photos\Polvo.jpeg
+photos\Papoilas.jpeg
+***** VIEW MOST_RECENT: 2 photos *****
+photos\Bean.jpeg
+photos\Polvo.jpeg
+
+***** ALBUMS *****
+***** Album Oppenheimer: 4 photos *****
+photos\Book.jpeg
+photos\Office.jpg
+photos\Library.jpeg
+photos\Cars.jpg
+***** Album Monuments: 1 photos *****
+photos\Bean.jpeg
+***** Album JoanaVasconcelos: 2 photos *****
+photos\Polvo.jpeg
+photos\SapatoJVasconcelos.JPG
+
+
+----------------------------------------------- 
+   Remove  Album Monuments
+-----------------------------------------------
+
+***** VIEWS *****
+***** VIEW ALL_MAIN: 10 photos *****
+photos\ArchesNationalPark.JPG
+photos\Cars.jpg
+photos\Bean.jpeg
+photos\Ginkaku-ji.JPG
+photos\Book.jpeg
+photos\Office.jpg
+photos\Library.jpeg
+photos\Polvo.jpeg
+photos\Papoilas.jpeg
+photos\SapatoJVasconcelos.JPG
+***** VIEW ALL_TRASH: 0 photos *****
+***** VIEW FAVOURITES_MAIN: 3 photos *****
+photos\Bean.jpeg
+photos\Polvo.jpeg
+photos\Papoilas.jpeg
+***** VIEW MOST_RECENT: 2 photos *****
+photos\Bean.jpeg
+photos\Polvo.jpeg
+
+***** ALBUMS *****
+***** Album Oppenheimer: 4 photos *****
+photos\Book.jpeg
+photos\Office.jpg
+photos\Library.jpeg
+photos\Cars.jpg
+***** Album JoanaVasconcelos: 2 photos *****
+photos\Polvo.jpeg
+photos\SapatoJVasconcelos.JPG
+
+
+----------------------------------------------- 
+    Delete 
+photos\Library.jpeg
+-----------------------------------------------
+
+***** MAIN PHOTO LIBRARY: 9 photos *****
+File:photos\ArchesNationalPark.JPG
+Title:Best arch Added:2024-04-19 22:26 Size:1372703
+[No Location, 2009-08-10 16:24Canon PowerShot G5, Canon]
+File:photos\Bean.jpeg
+Title:Cloud Gate Added:2024-04-19 22:26 Size:1459682
+[{Lat:41,88 Long:-87,62 Desc:}, 2023-07-31 13:49, DSC-HX1, SONY] FAV
+File:photos\Book.jpeg
+Title:IAS Book borrow by Oppenheimer Added:2024-04-19 22:26 Size:1643722
+[{Lat:40,33 Long:-74,67 Desc:}, 2022-04-13 13:36, iPhone 7, Apple]
+File:photos\Cars.jpg
+Title:Cars Oppenheimer movie Added:2024-04-19 22:26 Size:6633939
+[No Location, 1970-01-01 00:00, ]
+File:photos\Ginkaku-ji.JPG
+Title:Ginkaku-ji Added:2024-04-19 22:26 Size:3832046
+[{Lat:35,04 Long:135,73 Desc:}, 2015-08-12 01:44, DSC-HX1, SONY]
+File:photos\Office.jpg
+Title:IAS Eistein office Added:2024-04-19 22:26 Size:1536702
+[{Lat:40,33 Long:-74,67 Desc:}, 2022-04-13 13:20, POT-LX1A, HUAWEI]
+File:photos\Papoilas.jpeg
+Title:Papoilas Added:2024-04-19 22:26 Size:4476076
+[{Lat:39,36 Long:-8,69 Desc:}, 2022-05-01 11:05, iPhone 7, Apple] FAV
+File:photos\Polvo.jpeg
+Title:Octopus Vasconcelos Added:2024-04-19 22:26 Size:3283344
+[{Lat:38,7 Long:-9,19 Desc:}, 2024-02-12 10:13, iPhone SE (3rd generation), Apple] FAV
+File:photos\SapatoJVasconcelos.JPG
+Title:Salto Alto Added:2024-04-19 22:26 Size:735913
+[{Lat:38,7 Long:-9,21 Desc:}, 2010-03-21 12:51, iPhone 3G, Apple]
+***** TRASH PHOTO LIBRARY: 1 photos *****
+File:photos\Library.jpeg
+Title:IAS Library Rules Added:2024-04-19 22:26 Size:2214613
+[{Lat:40,33 Long:-74,67 Desc:}, 2022-04-13 13:32, iPhone 7, Apple]
+
+***** VIEWS *****
+***** VIEW ALL_MAIN: 9 photos *****
+photos\ArchesNationalPark.JPG
+photos\Cars.jpg
+photos\Bean.jpeg
+photos\Ginkaku-ji.JPG
+photos\Book.jpeg
+photos\Office.jpg
+photos\Polvo.jpeg
+photos\Papoilas.jpeg
+photos\SapatoJVasconcelos.JPG
+***** VIEW ALL_TRASH: 1 photos *****
+photos\Library.jpeg
+***** VIEW FAVOURITES_MAIN: 3 photos *****
+photos\Bean.jpeg
+photos\Polvo.jpeg
+photos\Papoilas.jpeg
+***** VIEW MOST_RECENT: 2 photos *****
+photos\Bean.jpeg
+photos\Polvo.jpeg
+
+***** ALBUMS *****
+***** Album Oppenheimer: 3 photos *****
+photos\Book.jpeg
+photos\Office.jpg
+photos\Cars.jpg
+***** Album JoanaVasconcelos: 2 photos *****
+photos\Polvo.jpeg
+photos\SapatoJVasconcelos.JPG
+
+
+Wait 20 seconds (enough time for photo in trash to be deleted).
+Note that, in the designed solution, the cleaning is only performed 
+when the photos in trash have to be presented in the trash view. 
+
+***** MAIN PHOTO LIBRARY: 9 photos *****
+File:photos\ArchesNationalPark.JPG
+Title:Best arch Added:2024-04-19 22:26 Size:1372703
+[No Location, 2009-08-10 16:24Canon PowerShot G5, Canon]
+File:photos\Bean.jpeg
+Title:Cloud Gate Added:2024-04-19 22:26 Size:1459682
+[{Lat:41,88 Long:-87,62 Desc:}, 2023-07-31 13:49, DSC-HX1, SONY] FAV
+File:photos\Book.jpeg
+Title:IAS Book borrow by Oppenheimer Added:2024-04-19 22:26 Size:1643722
+[{Lat:40,33 Long:-74,67 Desc:}, 2022-04-13 13:36, iPhone 7, Apple]
+File:photos\Cars.jpg
+Title:Cars Oppenheimer movie Added:2024-04-19 22:26 Size:6633939
+[No Location, 1970-01-01 00:00, ]
+File:photos\Ginkaku-ji.JPG
+Title:Ginkaku-ji Added:2024-04-19 22:26 Size:3832046
+[{Lat:35,04 Long:135,73 Desc:}, 2015-08-12 01:44, DSC-HX1, SONY]
+File:photos\Office.jpg
+Title:IAS Eistein office Added:2024-04-19 22:26 Size:1536702
+[{Lat:40,33 Long:-74,67 Desc:}, 2022-04-13 13:20, POT-LX1A, HUAWEI]
+File:photos\Papoilas.jpeg
+Title:Papoilas Added:2024-04-19 22:26 Size:4476076
+[{Lat:39,36 Long:-8,69 Desc:}, 2022-05-01 11:05, iPhone 7, Apple] FAV
+File:photos\Polvo.jpeg
+Title:Octopus Vasconcelos Added:2024-04-19 22:26 Size:3283344
+[{Lat:38,7 Long:-9,19 Desc:}, 2024-02-12 10:13, iPhone SE (3rd generation), Apple] FAV
+File:photos\SapatoJVasconcelos.JPG
+Title:Salto Alto Added:2024-04-19 22:26 Size:735913
+[{Lat:38,7 Long:-9,21 Desc:}, 2010-03-21 12:51, iPhone 3G, Apple]
+***** TRASH PHOTO LIBRARY: 1 photos *****
+File:photos\Library.jpeg
+Title:IAS Library Rules Added:2024-04-19 22:26 Size:2214613
+[{Lat:40,33 Long:-74,67 Desc:}, 2022-04-13 13:32, iPhone 7, Apple]
+
+***** VIEWS *****
+***** VIEW ALL_MAIN: 9 photos *****
+photos\ArchesNationalPark.JPG
+photos\Cars.jpg
+photos\Bean.jpeg
+photos\Ginkaku-ji.JPG
+photos\Book.jpeg
+photos\Office.jpg
+photos\Polvo.jpeg
+photos\Papoilas.jpeg
+photos\SapatoJVasconcelos.JPG
+***** VIEW ALL_TRASH: 0 photos *****
+***** VIEW FAVOURITES_MAIN: 3 photos *****
+photos\Bean.jpeg
+photos\Polvo.jpeg
+photos\Papoilas.jpeg
+***** VIEW MOST_RECENT: 2 photos *****
+photos\Bean.jpeg
+photos\Polvo.jpeg
+
+***** ALBUMS *****
+***** Album Oppenheimer: 3 photos *****
+photos\Book.jpeg
+photos\Office.jpg
+photos\Cars.jpg
+***** Album JoanaVasconcelos: 2 photos *****
+photos\Polvo.jpeg
+photos\SapatoJVasconcelos.JPG
